@@ -11,8 +11,8 @@
 ### 授業テキスト
 すべて「案」です。テキストは授業直前までに変わる可能性があります。
 
-1. [開発の準備をしよう（イントロダクション、開発環境の導入）](https://github.com/seibe/keio_sdp/blob/master/document/k01.md)
-1. [Unityで開発してみよう（その1、基礎文法編）](https://github.com/seibe/keio_sdp/blob/master/document/k02.md)
+1. [開発の準備をしよう（イントロダクション、開発環境の導入）](/k01.md)
+1. [Unityで開発してみよう（その1、基礎文法編）](/k02.md)
 1. Unityで開発してみよう（その2、入力編）
 1. Unityで開発してみよう（その3、表示編）
 1. スマートデバイスで実行してみよう
@@ -27,4 +27,4 @@
 1. 優秀作品表彰
 
 ### 授業時間外での質問について
-[SFC-SFS](https://vu8.sfc.keio.ac.jp/sfc-sfs/)   あるいは [Twitter](https://twitter.com/tasogare_games) 経由でどうぞ。
+このorignaizationにissueを立てるか、[SFC-SFS](https://vu8.sfc.keio.ac.jp/sfc-sfs/)、[SAのTwitter](https://twitter.com/_seibe) 経由でどうぞ！
