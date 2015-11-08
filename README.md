@@ -28,7 +28,7 @@
 
 ### 補足資料
 
-* 第2回補足 [C#の記法](/k02.csharp.md)
+* 第2回補足 [C#の記法](/k02_csharp.md)
 * 第5回補足 [Android実機テストの方法](/k05_develop_android.md)
 * 第5回補足 [iOS実機テストの方法](/k05_develop_ios.md)
 
