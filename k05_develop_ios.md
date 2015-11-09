@@ -1,41 +1,48 @@
 スマートデバイスプログラミング 第5回 補足資料
 # iOS実機テストの方法
 
-この資料では、Unityで開発したアプリケーションをiOS端末上で動作確認するため方法について解説します。
+この資料では、Unityで開発したアプリケーションをiOS端末上で動作確認するため方法について解説します
+
+* [事前準備](#setup)
+  * [端末とアカウントの用意](#setup-devices)
+  * [Xcodeのインストール](#install-xcode)
+* [UnityからXcodeプロジェクトを書き出す](#output-project)
+* [アプリを実機にインストールする](#run)
+* [参考資料](#links)
 
 
-## はじめに
+## <a name="setup">事前準備</a>
 
-### 端末とアカウントの用意
+### <a name="setup-devices">端末とアカウントの用意</a>
 
-iOSでの動作確認には、以下3点のハードウエアが必要です。
+iOSでの動作確認には、以下3点のハードウエアが必要です
 
 * 実機（iOS 8 以降搭載の iPhone または iPad）
 * 開発用端末（OS X Yosemite あるいは OS X El capitan が動作するコンピューター）
 * 実機と開発用端末を接続するUSBケーブル
 
-搭載OSが古いと開発できない場合があります。事前にアップデートしておいてください。  
-なお、Windows OSとiOSの組み合わせは不可能なので、その場合は諦めて[Android端末でテスト](/k05_develop_android.md)してください。
+搭載OSが古いと開発できない場合があります。事前にアップデートしておいてください  
+なお、Windows OSとiOSの組み合わせは不可能なので、その場合は諦めて[Android端末でテスト](/k05_develop_android.md)してください
 
-初回ビルド時に以下のアカウント情報が必要になります。もし無い方は事前に用意しておいてください。
+初回ビルド時に以下のアカウント情報が必要になります。もし無い方は事前に用意しておいてください
 
 * Apple ID
 
-### Xcodeのインストール
+### <a name="install-xcode">Xcodeのインストール</a>
 
 [<img alt="xcode" src="https://developer.apple.com/library/ios/documentation/ToolsLanguages/Conceptual/Xcode_Overview/Art/XcodeIcon_2x.png" width="268px" />](https://itunes.apple.com/us/app/xcode/id497799835)
 
-Unityに限らず、iOSアプリケーションのビルドにはXcodeと呼ばれる統合開発環境が必要になります。  
+Unityに限らず、iOSアプリケーションのビルドにはXcodeと呼ばれる統合開発環境が必要になります  
 必ず公式のMac App Storeから最新のXcodeを入手し、インストールしましょう。[参考: Xcode ghost事件](http://www.apple.com/cn/xcodeghost/#english)
 
 * [Xcode By Apple](https://itunes.apple.com/us/app/xcode/id497799835)
 
-Xcode 7.1は容量が4GB強あるため、安定した通信環境でもインストールに長い時間がかかります。
+Xcode 7.1は容量が4GB強あるため、安定した通信環境でもインストールに長い時間がかかります
 
-インストールが完了したら、Xcodeを起動し、表示される利用規約を読んで承認してください。
+インストールが完了したら、Xcodeを起動し、表示される利用規約を読んで承認してください
 
 
-## UnityからXcodeプロジェクトを書き出す
+## <a name="output-project">UnityからXcodeプロジェクトを書き出す</a>
 
 `File -> Build Settings...`を選択します  
 ![Build Settings](/assets/k05/ios_001.png)
@@ -52,7 +59,7 @@ Run in Xcode asを`Release`にし、DevelopmentBuildにチェックを入れて�
 しばらく待つと、プロジェクトフォルダに`Xcode`フォルダが作られます。その直下に`Unity-iPhone.xcodeproj`があれば、書き出しは成功です  
 ![Xcode directory](/assets/k05/ios_005.png)
 
-## アプリを実機にインストールする
+## <a name="run">アプリを実機にインストールする</a>
 
 開発端末に iPhone または iPad の実機をUSB接続しましょう
 
@@ -105,7 +112,7 @@ Deployment Targetをインストールする端末のiOSバージョンと同じ
 
 ホーム画面に戻り、先ほどインストールしたアプリのアイコンをタップすると、無事にアプリが起動します
 
-## 参考資料
+## <a name="links">参考資料</a>
 
 * [Unity - マニュアル: iOS 開発を始める](http://docs.unity3d.com/ja/current/Manual/iphone-GettingStarted.html)
 
